@@ -1,0 +1,25 @@
+{
+  "name": "aws-sdk-with-proxy",
+  "version": "1.0.0",
+  "description": "The AWS-SDK with proxy-agent preloaded so you don't have to remember to add it for proxy support!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makeshift/aws-sdk-with-proxy.git"
+  },
+  "author": "Connor Bell (Makeshift@Github)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Makeshift/aws-sdk-with-proxy/issues"
+  },
+  "homepage": "https://github.com/Makeshift/aws-sdk-with-proxy#readme",
+  "peerDependencies": {
+    "aws-sdk": "*"
+  },
+  "dependencies": {
+    "proxy-agent": "^3.1.1"
+  }
+}
